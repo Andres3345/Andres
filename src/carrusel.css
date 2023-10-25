@@ -1,0 +1,21 @@
+.carousel-container{
+    margin-top: 40px;
+    margin-bottom:2 5px;
+    border: none;
+}
+
+.divC {
+    width: 80%; /* Ancho del div individual */
+    height: 300px; /* Altura del div individual */
+    border-radius: 10px;
+    background-image: url('img/agenda.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; /* Ajusta la posición de la imagen de fondo según sea necesario */
+  }
+  .slick-slide {
+    margin-right: 10px; /* Espacio entre los elementos */
+    margin-bottom: -100px;
+  }
+
+

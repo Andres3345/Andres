@@ -1,0 +1,179 @@
+body{
+    background-image: url("img/fondo.jpg");
+    margin: 0;
+}
+.first{
+    margin-top: 180px;
+    width: 100%;
+}
+.padre{
+    display: flex;
+    justify-content: center;
+}
+.titulo{
+    background-color: #761DA5;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 200px;
+}
+.divT{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.titulo2{
+    width: 70%;
+    border-radius: 10px;
+    background-color: #761DA5;
+    text-align: center;
+    font-family: 'Pacifico';
+    margin-bottom: 100px;
+    margin-left: 185px;
+}
+.carta1{
+    background-image: url("img/agenda.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 18rem;
+    height: 400px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 25px black;
+    transition: 0.5s;
+    text-align: center;
+}
+.carta1:hover{
+    transform: translateY(-10px);
+
+}
+.carta2{
+    background-image: url("img/agenda2.jpg");
+    background-size: contain;
+    width: 18rem;
+    height: 400px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    transition: 0.5s;
+    box-shadow: 0 0 25px black;
+    text-align: center;
+}
+.carta2:hover{
+    transform: translateY(-10px);
+   
+}
+.carta3{
+    background-image:url("img/cocina.jpg");
+    background-size: cover;
+    width: 18rem;
+    height: 400px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    transition: 0.5s;
+    text-align: center;
+    box-shadow: 0 0 25px black;
+}
+.carta3:hover{
+    transform: translateY(-10px);
+   
+}
+.carta4{
+    background-image:url("img/estudiantil.jpg");
+    background-size: cover;
+    width: 18rem;
+    height: 400px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    transition: 0.5s;
+    text-align: center;
+    box-shadow: 0 0 25px black;
+}
+.carta4:hover{
+    transform: translateY(-10px);
+   
+}
+.carta5{
+    background-image:url("img/emprendedora.jpg");
+    background-size: cover;
+    width: 18rem;
+    height: 400px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    transition: 0.5s;
+    text-align: center;
+    box-shadow: 0 0 25px black;
+}
+.carta5:hover{
+    transform: translateY(-10px);
+    
+}
+.carta6{
+    background-image: url("img/diaria.jpg");
+    background-size: contain;
+    width: 18rem;
+    height: 400px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    transition: 0.5s;
+    text-align: center;
+    box-shadow: 0 0 25px black;
+}
+.carta6:hover{
+    transform: translateY(-10px);
+    
+}
+
+.compra{
+    background-color:#761DA5;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+.compra:hover{
+    background-color: black;
+    color: plum;
+}
+
+.flayer{
+    display: flex;
+    margin-top: 60px;
+    width: 90%;
+    background-color: rgba(102, 255, 204, .7);
+    border-radius: 20px;
+    font-family: 'Pacifico';
+    margin-left: 65px;
+    margin-bottom: 60px;
+}
+.flayer h2{
+    font-family: 'Pacifico';
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    color: green;
+}
+.fl-img{
+    width: 300px;
+    height: 280px;
+    padding-top: 5px;
+}
+h1{
+    width: 100%;
+    text-align: center;
+}
+.pie{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: right;
+}
+.pie-F{
+    margin-right: 15px;
+}
